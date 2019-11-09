@@ -1,62 +1,60 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> -----------------OVI - SEGURIDAD INFORMATICA ----------------- </title>
-  <meta charset="utf-8">
-    <meta name="description" content="-------------TEXTO-------------">
-    <link rel="stylesheet" type="text/css" href="css/base.css" >
-	<script src="https://code.jquery.com/jquery-1.11.2.js" integrity="sha256-WMJwNbei5YnfOX5dfgVCS5C4waqvc+/0fV7W2uy3DyU=" crossorigin="anonymous"></script>
-	  
-	<script type="text/javascript">
-	  $(document).ready(function(){
-			  $("#boton").click(function(event){
-				  $("#contenido").load('conte_index.html');
-			  });
-		  });
-	</script>
-  </head>
-  <body>
-<div id=menu>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="utf-8">
+<title>OVI - SEGURIDAD INFORMATICA</title>
+<link rel="stylesheet" type="text/css" href="css/base.css" >
+</head>
+<body>
+
+<div id="menu">
   <ul class="nav">
-				<li><a id="boton" onClick="" href="">Inicio</a></li>
-				<li><a href="">Lecturas</a>
-					<ul>
-						<li><a href="">Lectura1</a></li>
-						<li><a href="">Lectura2</a></li>
-						<li><a href="">Lectura3</a></li>
-						<li><a href="">Lectura4</a>
-						<li><a href="">Lectura5</a>
-						</li>
-					</ul>
-				</li>
-				<li><a href="">Multimedia</a>
-					<ul>
-						<li><a href="">Video1</a></li>
-						<li><a href="">Video2</a></li>
-						<li><a href="">Video3</a></li>
-						<li><a href="">Podcasts</a></li>
-					</ul>
-				</li>
-	  			<li><a href="">Actividades</a>
-					<ul>
-						<li><a href="">Actividad1</a></li>
-						<li><a href="">Actividad2</a></li>
-						<li><a href="">Actividad3</a></li>
-					</ul>
-				</li>
-				<li><a href="">Autores</a></li>
-			</ul>
+    <li><a id="boton" href="">Inicio</a></li>
+    <li><a href="">Lecturas</a>
+      <ul>
+        <li><a href="">Lectura1</a></li>
+        <li><a href="">Lectura2</a></li>
+        <li><a href="">Lectura3</a></li>
+        <li><a href="">Lectura4</a></li>
+        <li><a href="">Lectura5</a></li>
+      </ul>
+    </li>
+    <li><a href="">Multimedia</a>
+      <ul>
+        <li><a href="">Video1</a></li>
+        <li><a href="">Video2</a></li>
+        <li><a href="">Video3</a></li>
+        <li><a href="">Podcasts</a></li>
+      </ul>
+    </li>
+    <li><a href="">Actividades</a>
+      <ul>
+        <li><a href="">Actividad1</a></li>
+        <li><a href="">Actividad2</a></li>
+        <li><a href="">Actividad3</a></li>
+      </ul>
+    </li>
+    <li><a href="">Autores</a></li>
+  </ul>
 </div>
 <div id="header">
-  <div id="titulo_header"><h1>SEGURIDAD INFORMATICA</h1></div>
-</div>
-<div id="contenido">
+  <div id="titulo_header">
+    <h1>SEGURIDAD INFORMATICA</h1>
   </div>
-
-    <div id="footer">
-      -------------TEXTO-------------
-    </div>
-  </body>
+</div>
+<div id="contenido"></div>
+<div id="footer"> -------------TEXTO------------- </div>
+	<script src="js/jquery-1.8.3.min.js">
+	</script>
+	<script>
+		$(document).ready(function(e){
+			$('#boton').on('click', function(){
+				$('#contenido').load('conte.index');
+			});
+		});
+	
+	</script>
+</body>
 </html>
