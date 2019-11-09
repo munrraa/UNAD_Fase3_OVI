@@ -7,11 +7,20 @@
   <meta charset="utf-8">
     <meta name="description" content="-------------TEXTO-------------">
     <link rel="stylesheet" type="text/css" href="css/base.css" >
+	<script src="https://code.jquery.com/jquery-1.11.2.js" integrity="sha256-WMJwNbei5YnfOX5dfgVCS5C4waqvc+/0fV7W2uy3DyU=" crossorigin="anonymous"></script>
+	  
+	<script type="text/javascript">
+	  $(document).ready(function(){
+			  $("#boton").click(function(event){
+				  $("#contenido").load('conte_index.html');
+			  });
+		  });
+	</script>
   </head>
   <body>
 <div id=menu>
   <ul class="nav">
-				<li><a href="">Inicio</a></li>
+				<li><a id="boton" onClick="" href="">Inicio</a></li>
 				<li><a href="">Lecturas</a>
 					<ul>
 						<li><a href="">Lectura1</a></li>
@@ -44,23 +53,7 @@
   <div id="titulo_header"><h1>SEGURIDAD INFORMATICA</h1></div>
 </div>
 <div id="contenido">
-  <p>La seguridad informática se puede  definir como el proceso de prevenir y detectar el uso o accesos no autorizados  de un sistema de información, su objetivo es la de garantizar la integridad,  disponibilidad y confidencialidad de la información, la seguridad informática  la componen tres principios básicos:</p>
-  <ul>
-    <li><strong>Integridad: </strong>la modificación de cualquier tipo  de información debe ser conocido y autorizado por el autor o entidad.</li>
-    <li><strong>Disponibilidad:</strong> la operación continua para  mantener la productividad y credibilidad de la empresa.</li>
-    <li><strong>Confidencialidad:</strong> La divulgación de datos debe ser  autorizada y los datos protegidos.</li>
-  </ul>
-  <p>&nbsp;</p>
-  <p><strong>Clases  de Seguridad:</strong><br />
-    En la actualidad existen tres  clases de seguridad:</p>
-  <ul>
-    <li>Seguridad de hardware: esta consta de la protección física y el control  de una red realizando de forma constante un monitoreo del sistema. Estos pueden  ser servidores firewall, claves criptográficas, proxys.</li>
-  </ul>
-  <ul>
-    <li>Seguridad de software: Software dedicado a bloquear ataques maliciosos  garantizando así solo accesos autorizados mediante reglas definidas.</li>
-  </ul>
-  <p>&nbsp;</p>
-Seguridad  de red: se encarga de proteger toda la información que es accesible a través de  internet, mediante hardware o software</div>
+  </div>
 
     <div id="footer">
       -------------TEXTO-------------
