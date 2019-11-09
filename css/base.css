@@ -40,10 +40,12 @@ background-color: #083a59;
 	alignment-adjust: middle;
 }
 #contenido{
+	background-color: white;
 	position: absolute;
 	top: 260px;
 	left: 60px;
 	width: 80%;
+	height: 200px;
 	alignment-adjust: middle;
 	text-align: center;
 }
