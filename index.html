@@ -48,7 +48,37 @@
 <iframe id="contenido">
 </iframe>
 	
-<div id="footer"> -------------TEXTO------------- </div>
+<div id="footer">
+	<div id="footer-cont">
+		<div class="colum1">
+			<h3>Lecturas</h3>
+			<p><a id="foo_lec1" href="#">Principios Basicos</a></p>
+			<p><a id="foo_lec2" href="#">Seguridad de Hardware</a></p>
+			<p><a id="foo_lec3" href="#">Segurdad de Software</a></p>
+			<p><a id="foo_lec4" href="#">Seguridad de red</a></p>
+			<p><a id="foo_lec5" href="#">Resumen</a></p>
+			<p>&nbsp;</p>
+		</div>
+
+		<div class="colum1">
+			<h3>Multimedia</h3>
+			<p><a id="foo_v1" href="#">Video</a></p>
+			<p><a id="foo_v2" href="#">Podcats</a></p>
+			<p>&nbsp;</p>
+		</div>
+
+		<div class="colum1">
+			<h3>Actividades</h3>
+			<p><a id="foo_a1" href="#">Crucigrama</a></p>
+			<p><a id="foo_a2" href="#">test</a></p>
+		</div>
+
+		<div class="colum1">
+			<h3><a id="foo_au1" href="#">Autor</a></h3>
+			<p>&nbsp;</p>
+		</div>
+	</div>
+</div>
 	<script src="js/jquery-1.8.3.min.js">
 	</script>
 	<script>
@@ -98,6 +128,46 @@
 			});
 			
 			$('#boton_Aut').on('click', function(){
+				$('#contenido').attr('src','aut.html');
+			});
+			
+			$('#foo_lec1').on('click', function(){
+				$('#contenido').attr('src','lec_1.html');
+			});
+			
+			$('#foo_lec2').on('click', function(){
+				$('#contenido').attr('src','lec_2.html');
+			});
+			
+			$('#foo_lec3').on('click', function(){
+				$('#contenido').attr('src','lec_3.html');
+			});
+			
+			$('#foo_lec4').on('click', function(){
+				$('#contenido').attr('src','lec_4.html');
+			});
+			
+			$('#foo_lec5').on('click', function(){
+				$('#contenido').attr('src','lec_5.html');
+			});
+			
+			$('#foo_v1').on('click', function(){
+				$('#contenido').attr('src','vid_1.html');
+			});
+			
+			$('#foo_v2').on('click', function(){
+				$('#contenido').attr('src','vid_2.html');
+			});
+			
+			$('#foo_a1').on('click', function(){
+				$('#contenido').attr('src','act_1.html');
+			});
+			
+			$('#foo_a2').on('click', function(){
+				$('#contenido').attr('src','act_2.html');
+			});
+			
+			$('#foo_au1').on('click', function(){
 				$('#contenido').attr('src','aut.html');
 			});
 		});	
