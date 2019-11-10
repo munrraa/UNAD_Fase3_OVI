@@ -8,35 +8,35 @@
 <link rel="stylesheet" type="text/css" href="css/base.css" >
 </head>
 <body>
-
 <div id="menu">
+<div id="contador_text">Contador de Visitantes</div>
+<div id="contador"><div id="sfcpdaqscrt17saa14ekjqmrew97wd49wye"></div>
+<script type="text/javascript" src="https://counter10.wheredoyoucomefrom.ovh/private/counter.js?c=pdaqscrt17saa14ekjqmrew97wd49wye&down=async" async></script>
+<noscript><a title="contadores para pagina web"><img src="https://counter10.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=pdaqscrt17saa14ekjqmrew97wd49wye" border="0" title="contadores para pagina web" alt="contadores para pagina web"></a></noscript></div>
   <ul class="nav">
     <li><a id="boton" href="#">Inicio</a></li>
     <li><a href="">Lecturas</a>
       <ul>
-        <li><a id="boton_lectura1" href="#">Lectura1</a></li>
-        <li><a href="">Lectura2</a></li>
-        <li><a href="">Lectura3</a></li>
-        <li><a href="">Lectura4</a></li>
-        <li><a href="">Lectura5</a></li>
+        <li><a id="boton_lec1" href="#">Principios Basicos</a></li>
+        <li><a id="boton_lec2" href="#">Seguridad de hardware</a></li>
+        <li><a id="boton_lec3" href="#">Seguridad de software</a></li>
+        <li><a id="boton_lec4" href="#">Seguridad de red</a></li>
+        <li><a id="boton_lec5" href="#">Resumen</a></li>
       </ul>
     </li>
     <li><a href="">Multimedia</a>
       <ul>
-        <li><a href="">Video1</a></li>
-        <li><a href="">Video2</a></li>
-        <li><a href="">Video3</a></li>
-        <li><a href="">Podcasts</a></li>
+        <li><a id="boton_v1" href="#">Video1</a></li>
+        <li><a id="boton_v2" href="#">Podcasts</a></li>
       </ul>
     </li>
     <li><a href="">Actividades</a>
       <ul>
-        <li><a href="">Actividad1</a></li>
-        <li><a href="">Actividad2</a></li>
-        <li><a href="">Actividad3</a></li>
+        <li><a id="boton_Ac1" href="#">Crucigrama</a></li>
+        <li><a id="boton_Ac2" href="#">Test</a></li>
       </ul>
     </li>
-    <li><a href="">Autores</a></li>
+    <li><a id="boton_Aut" href="#">Autores</a></li>
   </ul>
 </div>
 <div id="header">
@@ -44,8 +44,8 @@
     <h1>SEGURIDAD INFORMATICA</h1>
   </div>
 </div>
+	
 <iframe id="contenido">
-	<div class="ajustar"></div>
 </iframe>
 	
 <div id="footer"> -------------TEXTO------------- </div>
@@ -61,8 +61,44 @@
 				$('#contenido').attr('src','conte.html');
 			});
 			
-			$('#boton_lectura1').on('click', function(){
-				$('#contenido').attr('src','lectura_1.html');
+			$('#boton_lec1').on('click', function(){
+				$('#contenido').attr('src','lec_1.html');
+			});
+			
+			$('#boton_lec2').on('click', function(){
+				$('#contenido').attr('src','lec_2.html');
+			});
+			
+			$('#boton_lec3').on('click', function(){
+				$('#contenido').attr('src','lec_3.html');
+			});
+			
+			$('#boton_lec4').on('click', function(){
+				$('#contenido').attr('src','lec_4.html');
+			});
+			
+			$('#boton_lec5').on('click', function(){
+				$('#contenido').attr('src','lec_5.html');
+			});
+			
+			$('#boton_v1').on('click', function(){
+				$('#contenido').attr('src','Vid_1.html');
+			});
+			
+			$('#boton_v2').on('click', function(){
+				$('#contenido').attr('src','Vid_2.html');
+			});
+			
+			$('#boton_Ac1').on('click', function(){
+				$('#contenido').attr('src','Act_1.html');
+			});
+			
+			$('#boton_Ac2').on('click', function(){
+				$('#contenido').attr('src','Act_2.html');
+			});
+			
+			$('#boton_Aut').on('click', function(){
+				$('#contenido').attr('src','Aut.html');
 			});
 		});	
 	</script>

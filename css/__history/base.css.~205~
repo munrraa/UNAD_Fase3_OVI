@@ -87,11 +87,10 @@ img{
 }
 ul, ol {
 	list-style:none;
+	left: 55px;
 }
 .nav > li {
 	float: left;
-	position: relative;
-	left: 50px;
 }
 .nav li a {
 	background-color:#005883;

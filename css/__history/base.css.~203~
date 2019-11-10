@@ -90,13 +90,12 @@ ul, ol {
 }
 .nav > li {
 	float: left;
-	position: relative;
-	left: 50px;
 }
 .nav li a {
 	background-color:#005883;
 	color:#fff;
 	text-decoration:none;
+	left: 55px;
 	padding:10px 12px;
 	display:block;
 }

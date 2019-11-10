@@ -90,8 +90,6 @@ ul, ol {
 }
 .nav > li {
 	float: left;
-	position: relative;
-	left: 50px;
 }
 .nav li a {
 	background-color:#005883;

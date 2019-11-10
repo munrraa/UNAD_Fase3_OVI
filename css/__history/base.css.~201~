@@ -5,7 +5,7 @@ background-color: #F0B429;
 	background-color: #005883;
 	width: 100%;
 	top: 200px;
-	left: 0px;
+	left: 50px;
 	font-style: normal;
 	position: absolute;
 	color: #ffffff;
@@ -90,8 +90,6 @@ ul, ol {
 }
 .nav > li {
 	float: left;
-	position: relative;
-	left: 50px;
 }
 .nav li a {
 	background-color:#005883;
